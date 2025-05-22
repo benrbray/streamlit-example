@@ -10,6 +10,13 @@ Updates automatically!
 Be careful about long-running calculations!
 This is text""")
 
+st.markdown("### Images & Buttons")
+
+st.markdown("Click the button to load an image from the `raw_data` folder!")
+
+if st.button("Click Me!"):
+    st.image("raw_data/lewagon.png")
+
 st.markdown("### Random Number")
 
 st.markdown("""
