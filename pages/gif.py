@@ -19,3 +19,5 @@ gif_url = gif_data["images"]["original"]["url"]
 # st.write(gif_data)
 
 st.markdown(f"![]({gif_url})")
+
+st.write(f'<img height=600 src="{gif_url}"/>', unsafe_allow_html=True)

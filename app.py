@@ -8,6 +8,12 @@ st.markdown("""# This is a header
 ## This is a sub header
 Updates automatically!
 Be careful about long-running calculations!
+
+```python
+this is python code
+live updating
+```
+
 This is text""")
 
 st.markdown("### Images & Buttons")
